@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginate li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(160, 160, 160);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
